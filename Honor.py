@@ -166,7 +166,7 @@ def tomb():
                 valg = input("-> ")
                 if valg == "A":
                     asking = False
-                    #end while loop
+                    # end while loop
                     print()
                     print("You " + name + " have gotten the power of the deity and your kingdom fell to ruin. After reporting your success to the deity. You " + name + " realize he is free and he kills you " + name + ".")
                     liv -= 100
@@ -174,7 +174,7 @@ def tomb():
 
                 elif valg == "B":
                     asking = False
-                    #end while loop
+                    # end while loop
                     print()
                     print("The deity ate you " + name + ".")
                     liv -= 100
@@ -211,7 +211,7 @@ def training_ground():
             exit()
         elif valg == "B":
             asking = False
-            #end while loop
+            # end while loop
             print()
             print("You "+ name + " give 200 percent and start getting ready for the war. You " + name + " put in an extra effort and beat all the other knights, and even gain special powers to fight with.")
             print("The guy has gotten the deity's power by now and is heading for the kingdom. He arrived and started wageing war to the kingdom.")
@@ -226,12 +226,12 @@ def training_ground():
                 valg = input("-> ")
                 if valg == "A":
                     asking = False
-                    #end while loop
+                    # end while loop
                     print()
                     tomb_war()
                 if valg == "B":
                     asking = False
-                    #end while loop
+                    # end while loop
                     print()
                     print("The deity storms the kingdom and you are unable to fend it off.")
                     liv -= 100
@@ -244,7 +244,7 @@ def tomb_war():
         valg = input("-> ")
         if valg == "A":
             asking = False
-            #end while loop
+            # end while loop
             print()
             print("The deity is way out of your leauge and you begin to lose.")
             print()
@@ -254,7 +254,7 @@ def tomb_war():
                 valg = input("-> ")
                 if valg == "A":
                     asking = False
-                    #end while loop
+                    # end while loop
                     print()
                     print("Even thoug you " + name + " push for victory, it seems so far away. Thats when you" + name + " realize you " + name + " whould instead redo the seal your kind had done many years ago.")
                     print("You " + name + " start casting your magic in the musical way your king did. The deity falls to his knees and you leave to tell of the news.")
@@ -266,6 +266,8 @@ def tomb_war():
                     print("Did you honestly think i would let you pick this after all the other dumb answers, just try again, the other one is really good. Might need your reading glasses thoug, it's pretty long.")
                     print("A: You push through, B: You use plot armor")
         if valg == "B":
+            asking = False
+            # end while loop
             print("You " + name + " accept the deity's offer, and once you got power you " + name + " kill the deity to save the kingdom and rule on your own.")
             print("You start your tyrannic rule where no one is to oppose, and the usage of magic is prohibited. Using magic leeds to execution.")
             print("You won!")
