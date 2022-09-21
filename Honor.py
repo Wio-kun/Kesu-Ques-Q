@@ -269,7 +269,7 @@ def tomb_war():
             asking = False
             # end while loop
             print("You " + name + " accept the deity's offer, and once you got power you " + name + " kill the deity to save the kingdom and rule on your own.")
-            print("You start your tyrannic rule where no one is to oppose, and the usage of magic is prohibited. Using magic leeds to execution.")
+            print("You start your tyrannic rule where no one is to oppose, and the usage of magic is prohibited. Magic usage leeds to execution.")
             print("You won!")
             exit()
 
